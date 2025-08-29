@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Demo</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a href="#" class="logo" aria-label="홈으로">Vibe</a>
+			<button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="메뉴 열기">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</button>
+			<nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+				<ul>
+					<li><a href="#features">기능</a></li>
+					<li><a href="#gallery">갤러리</a></li>
+					<li><a href="#cta">시작하기</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero" id="hero">
+			<div class="container hero-inner">
+				<div class="hero-text">
+					<h1>감각적인 웹 경험</h1>
+					<p>미니멀한 디자인과 유려한 인터랙션으로 브랜드의 분위기를 담아냅니다.</p>
+					<div class="hero-actions">
+						<a class="btn primary" href="#cta">지금 시작</a>
+						<a class="btn ghost" href="#features">더 알아보기</a>
+					</div>
+					<!-- 위 타이틀/문구는 필요에 맞게 변경하세요 -->
+				</div>
+				<figure class="hero-media">
+					<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop" alt="무드 있는 풍경 이미지">
+					<!-- 히어로 이미지는 브랜드 이미지로 교체하세요 -->
+				</figure>
+			</div>
+		</section>
+
+		<section class="features" id="features">
+			<div class="container">
+				<h2>핵심 기능</h2>
+				<ul class="feature-grid">
+					<li>
+						<h3>반응형 레이아웃</h3>
+						<p>모든 기기에서 자연스러운 화면 구성과 가독성.</p>
+					</li>
+					<li>
+						<h3>빠른 로딩</h3>
+						<p>최적화된 에셋과 비동기 로딩으로 속도 향상.</p>
+					</li>
+					<li>
+						<h3>일관된 디자인</h3>
+						<p>타이포/컬러 스케일로 균형 잡힌 비주얼.</p>
+					</li>
+				</ul>
+				<!-- 기능 항목은 필요 수량만큼 li로 추가/삭제하세요 -->
+			</div>
+		</section>
+
+		<section class="gallery" id="gallery" aria-label="프로젝트 갤러리">
+			<div class="container">
+				<h2>갤러리</h2>
+				<ul class="gallery-grid">
+					<li><img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=800&auto=format&fit=crop" alt="갤러리 이미지 1"></li>
+					<li><img src="https://images.unsplash.com/photo-1513477967668-2aaf11838bd0?q=80&w=800&auto=format&fit=crop" alt="갤러리 이미지 2"></li>
+					<li><img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=800&auto=format&fit=crop" alt="갤러리 이미지 3"></li>
+					<li><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=800&auto=format&fit=crop" alt="갤러리 이미지 4"></li>
+					<li><img src="https://images.unsplash.com/photo-1500534314680-703c378684ee?q=80&w=800&auto=format&fit=crop" alt="갤러리 이미지 5"></li>
+					<li><img src="https://images.unsplash.com/photo-1495231916356-a86217efff12?q=80&w=800&auto=format&fit=crop" alt="갤러리 이미지 6"></li>
+				</ul>
+				<!-- 각 이미지는 동일 비율(4:3)로 자동 크롭됩니다. 교체만 하세요 -->
+			</div>
+		</section>
+
+		<section class="cta" id="cta">
+			<div class="container cta-inner">
+				<h2>지금 시작해 보세요</h2>
+				<p>몇 분이면 멋진 랜딩 페이지를 완성할 수 있습니다.</p>
+				<a class="btn primary large" href="#">무료로 체험하기</a>
+				<!-- CTA 문구/버튼 링크를 서비스에 맞게 변경하세요 -->
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>© 2025 Vibe. All rights reserved.</p>
+			<ul class="footer-links">
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">이용약관</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="main.js"></script>
+</body>
+</html>
